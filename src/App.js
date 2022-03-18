@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('giphy api', process.env.REACT_APP_GIPHY_KEY);
   return (
     <div className="App">
       <header className="App-header">
