@@ -8,7 +8,7 @@ function Home() {
                 <input type="text" placeholder ="Search"/> 
                 <button type='submit'>Button</button>
             </form>
-            <div class="">
+            <div class="images">
                 <img class="img" src="https://media.giphy.com/media/Vh8pbGX3SGRwFDh3V0/source.gif" alt="images" />
             </div>
         </div>

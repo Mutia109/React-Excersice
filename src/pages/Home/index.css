@@ -1,7 +1,14 @@
-.search-bar{
-    padding:50px;
+.search-bar {
+  padding: 50px;
 }
 
-.img{
-    width: 30%;
+.images {
+  /* background-color:red; */
+  margin-top: 30px;
+}
+
+.img {
+  width: 50%;
+  border-radius: 80px;
+  overflow: hidden;
 }
