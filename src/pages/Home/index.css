@@ -1,0 +1,14 @@
+.search-bar {
+  padding: 50px;
+}
+
+.images {
+  /* background-color:red; */
+  margin-top: 30px;
+}
+
+.img {
+  width: 50%;
+  border-radius: 80px;
+  overflow: hidden;
+}
