@@ -2,13 +2,16 @@
   padding: 50px;
 }
 
+form input {
+  margin-right: 30px;
+}
+
 .images {
-  /* background-color:red; */
   margin-top: 30px;
 }
 
 .img {
-  width: 30%;
-  border-radius: 80px;
+  width: 20%;
+  border-radius: 20px;
   overflow: hidden;
 }

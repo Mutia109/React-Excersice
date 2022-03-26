@@ -1,6 +1,8 @@
 import React from 'react';
 import './index.css';
-import Gif from '../../Components/Gif';
+import Gif from '../../components/Gif';
+import ObjectLoop from '../../components/ObjectLoop';
+import data from '../../data/dataGif';
 
 const gif = {
     id: '4HrBfVJJveBNS9ytSk',
@@ -18,7 +20,15 @@ function Home() {
                 <input type="text" placeholder ="Search"/> 
                 <button type='submit'>Button</button>
             </form>
-            <Gif url={gif.url} title={gif.title} />
+            <div className='gifs'>
+                {data.map(gif => (
+                    <React.Fragment key ={gif.id}> 
+                        {gif.rating === 'g' &&(
+                            <Gif url={gif.url} title={gif.title} />
+                        )}
+                    </React.Fragment>
+                ))}
+            </div>
         </div>
     )
 }
