@@ -1,17 +1,24 @@
-.search-bar {
-  padding: 50px;
+.gifs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
 }
 
-form input {
-  margin-right: 30px;
-}
-
-.images {
+.formSearch {
+  text-align: center;
   margin-top: 30px;
 }
 
-.img {
-  width: 20%;
+input {
+  width: 1020px;
+  height: 30px;
   border-radius: 20px;
-  overflow: hidden;
+}
+
+#btn {
+  margin-left: 20px;
+  height: 30px;
+  border-radius: 5px;
 }
