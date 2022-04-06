@@ -4,13 +4,16 @@ import Gif from '../../components/Gif';
 import data from '../../data/dataGif';
 import { useState } from 'react';
 import SearchBar from '../../components/SearchBar';
+import { useSelector, useDispatch } from 'react-redux';
+import {setQuery} from '../../reducer/querySlice';
 
 function Home() {
-    const [text, setText] = useState('');
+    const text = useSelector((state) => state.query.value);
+    const dispatch = useDispatch();
     const [gifs, setGifs] = useState([]);
 
     const handleInput = (e) =>{
-        setText(e.target.value)
+        dispatch(setQuery(e.target.value));
     }
 
     const onSubmit = async (e) =>{
