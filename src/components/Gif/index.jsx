@@ -1,5 +1,5 @@
 import React from 'react'
-import './gif.css'
+import './index.css'
 function Gif({url, title}) {
     return (
         <div className="images">

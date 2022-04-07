@@ -1,0 +1,25 @@
+#link{
+    color: white;
+    font-weight: bolder;
+    margin-left: 90px;
+}
+
+.navbar {
+    padding: 16px 0;
+    top: 0;
+    z-index: 9999;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar__link {
+    text-decoration: none;
+  }
+
+  #link:hover{
+    color: red;
+  }
+  
