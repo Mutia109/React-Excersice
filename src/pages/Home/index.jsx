@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.css';
 import Gif from '../../components/Gif';
-import data from '../../data/dataGif';
 import { useState } from 'react';
 import SearchBar from '../../components/SearchBar';
 import { useSelector, useDispatch } from 'react-redux';

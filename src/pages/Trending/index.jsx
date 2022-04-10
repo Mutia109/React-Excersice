@@ -17,7 +17,6 @@ export default function Trending() {
       setTrendingGifs(gifs.data);
       setLoading(false);
     }
-
     getTrendingGifs();
   }, []);
   
@@ -37,7 +36,6 @@ export default function Trending() {
           ))}
         </div>
       )}
-      
     </div>
   )
 }
